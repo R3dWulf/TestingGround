@@ -6,7 +6,7 @@
 #include "PatrollingGuard.generated.h"
 
 /**
- * 
+ * A "route card" to help AI choose that next waypoint
  */
 UCLASS()
 class TESTINGGROUND_API APatrollingGuard : public ATP_ThirdPersonCharacter
@@ -14,7 +14,7 @@ class TESTINGGROUND_API APatrollingGuard : public ATP_ThirdPersonCharacter
 	GENERATED_BODY()
 
 public:
-		UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
-		TArray<AActor*> PatrolPointsCPP;
+	UPROPERTY(EditInstanceOnly, Category = "Patrol Route")
+	TArray<AActor*> PatrolPointsCPP;
 
 };
