@@ -15,4 +15,7 @@ class TESTINGGROUND_API UChooseNextWaypoint : public UBTTaskNode
 	
 		virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override; //Remember, override just makes sure the compiler checks to make sure the super class is just like this
 	
+protected:
+	UPROPERTY(EditAnywhere, Category = "Blackboard")
+	struct FBlackboardKeySelector IndexKey;
 };
