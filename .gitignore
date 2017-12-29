@@ -8,6 +8,10 @@ Saved
 /*
 Content/StarterContent/*
 
+#
+*.uasset
+*.umap
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
