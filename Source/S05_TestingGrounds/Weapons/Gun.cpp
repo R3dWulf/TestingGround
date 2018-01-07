@@ -2,8 +2,9 @@
 
 #include "S05_TestingGrounds.h"
 #include "Gun.h"
-#include "Animation/AnimInstance.h"
 #include "BallProjectile.h"
+#include "Animation/AnimInstance.h"
+
 
 // Sets default values
 AGun::AGun()
@@ -20,7 +21,6 @@ AGun::AGun()
 	FP_MuzzleLocation = CreateDefaultSubobject<USceneComponent>(TEXT("MuzzleLocation"));
 	FP_MuzzleLocation->SetupAttachment(FP_Gun);
 	FP_MuzzleLocation->SetRelativeLocation(FVector(0.2f, 48.4f, -10.6f));
-
 }
 
 // Called when the game starts or when spawned
@@ -71,5 +71,3 @@ void AGun::OnFire()
 	}
 
 }
-
-

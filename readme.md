@@ -59,3 +59,7 @@ Click [here](https://www.udemy.com/unrealcourse?couponCode=GitHubDiscount) to fi
 * TG44 Behaviour Tree Services
 * TG45 Tweaking AI Behaviour
 * TG46 Debugging AI Behaviour
+* TG47 Refactoring to a Gun Actor
+* TG48 Attaching Actors to Components
+* TG49 Configuring the Gun
+* TG50 Moving Files from LFS to Git

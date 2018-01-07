@@ -37,11 +37,12 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category = "Setup")
 	TSubclassOf<class AGun> GunBlueprint;
 
-private:
+private: 
 
 	AGun* Gun;
 
 protected:
+	
 	/** Handles moving forward/backward */
 	void MoveForward(float Val);
 
